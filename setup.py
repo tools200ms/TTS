@@ -121,7 +121,7 @@ setup(
         # 'build_ext': build_ext
     },
     install_requires=requirements,
-    python_requires='>=3.6.0, <3.9',
+    python_requires='>=3.7.0, <3.10',
     entry_points={
         'console_scripts': [
             'tts=TTS.bin.synthesize:main',
